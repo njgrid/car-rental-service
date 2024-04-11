@@ -15,8 +15,7 @@ public class Car {
     private String brand;
     private int year;
     private String type; // e.g., Sedan, SUV, Hatchback, etc.
-    private String location; // Location where the car is stationed or available
+    private String location;
     private int pricePerDay;
     private boolean available;
-
 }

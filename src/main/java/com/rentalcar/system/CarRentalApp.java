@@ -12,6 +12,7 @@ import java.util.List;
 public class CarRentalApp {
     public static void main(String[] args) {
 
+
         // Create repositories
         CarRepository carRepository = new CarRepositoryImpl();
         CustomerRepository customerRepository = new CustomerRepositoryImpl();
