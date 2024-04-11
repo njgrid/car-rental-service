@@ -12,8 +12,5 @@ public interface ComplaintService {
     List<Complaint> getAllComplaints();
     List<Complaint> getComplaintsByCustomerId(int customerId);
 
-
-
-    // Other methods related to complaint management
 }
 

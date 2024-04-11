@@ -13,7 +13,6 @@ import java.time.LocalDateTime;
 @ToString
 public class Complaint {
     private int id;
-    private LocalDateTime complaintTime;
     private String description;
     private String status;
     private int customerId;

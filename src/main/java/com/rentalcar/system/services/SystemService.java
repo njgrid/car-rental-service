@@ -6,8 +6,5 @@ public interface SystemService {
     void approveDatabaseManipulation();
     void approveDeRegistration();
 
-
-
-    // Other business logic methods related to system management
 }
 

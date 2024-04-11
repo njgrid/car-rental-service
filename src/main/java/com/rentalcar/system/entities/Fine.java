@@ -6,15 +6,16 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
 public class Fine {
-    private int id;
-    private LocalDateTime timestamp;
-    private String description;
-    private int rating;
-    private int customerId;
+    private int fineId;
+    private int bookingId;
+    private int amount;
+    private String reason;
+    private Date dateIssued;
 }
